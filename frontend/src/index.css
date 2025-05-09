@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-outline {
+    @apply border border-primary-600 text-primary-600 hover:bg-primary-50 font-bold py-2 px-4 rounded transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .input-field {
+    @apply mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500;
+  }
+  
+  .tag {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .tag-green {
+    @apply bg-green-100 text-green-800;
+  }
+  
+  .tag-red {
+    @apply bg-red-100 text-red-800;
+  }
+  
+  .tag-blue {
+    @apply bg-blue-100 text-blue-800;
+  }
+  
+  .tag-yellow {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+  
+  .tag-gray {
+    @apply bg-gray-100 text-gray-800;
+  }
+  
+  .tag-purple {
+    @apply bg-purple-100 text-purple-800;
+  }
+  
+  .stat-card {
+    @apply flex flex-col p-4 bg-white border rounded-lg shadow-sm;
+  }
+  
+  .stat-title {
+    @apply text-sm font-medium text-gray-500;
+  }
+  
+  .stat-value {
+    @apply text-3xl font-bold text-gray-900 mt-1;
+  }
+  
+  .stat-desc {
+    @apply text-xs text-gray-500 mt-1;
+  }
+}
+
+body {
+  @apply bg-gray-50;
+}
+
+.recharts-text {
+  @apply fill-gray-600 text-xs;
+}
+
+.recharts-cartesian-axis-line {
+  @apply stroke-gray-300;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  @apply stroke-gray-200;
+}
+
+.recharts-tooltip-wrapper {
+  @apply !shadow-lg !rounded-md !border-0;
+}
+
+.recharts-default-tooltip {
+  @apply !bg-white !border-0 !shadow-none !rounded-md !px-3 !py-2;
+}
+
+.recharts-tooltip-label {
+  @apply !text-gray-700 !font-medium !text-sm;
+}
+
+.recharts-tooltip-item-list {
+  @apply !text-sm;
+}

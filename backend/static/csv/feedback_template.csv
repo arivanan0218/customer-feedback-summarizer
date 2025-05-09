@@ -1,0 +1,31 @@
+customer_id,date,product_service,rating,feedback_text,category,location,user_id
+C001,2025-01-01,Inventory Module,4,"The inventory tracking system is very intuitive and easy to use. However, I wish there were more customization options.",Feature Request,New York,U001
+C002,2025-01-05,Financial Module,2,"The financial reporting module is difficult to navigate and often generates errors when trying to create monthly reports.",Bug Report,San Francisco,U002
+C003,2025-01-10,HR Module,5,"The HR module has streamlined our onboarding process significantly. Great job on the latest update!",Praise,Chicago,U003
+C004,2025-01-15,CRM Module,3,"The CRM module works well but needs better integration with email clients. Some customer records aren't syncing properly.",Integration,Boston,U004
+C005,2025-01-20,Inventory Module,4,"Really like the barcode scanning feature in the inventory module. It saves us so much time during stocktaking.",Praise,Seattle,U005
+C006,2025-01-25,Financial Module,1,"Having issues with the tax calculation feature. It's not correctly applying our regional tax rates and causing compliance problems.",Bug Report,Austin,U006
+C007,2025-02-01,HR Module,4,"The attendance tracking system works great, but it would be nice to have a mobile app for employees to clock in.",Feature Request,Denver,U007
+C008,2025-02-05,CRM Module,2,"Customer history doesn't load quickly enough. Our sales team needs faster access to previous interactions.",Performance,Atlanta,U008
+C009,2025-02-10,Inventory Module,5,"The inventory forecasting tool is exceptional! It's helped us optimize our stock levels and reduce waste.",Praise,Portland,U009
+C010,2025-02-15,Financial Module,3,"Invoice generation is smooth, but we need more template customization options to match our branding.",Feature Request,Dallas,U010
+C011,2025-02-20,HR Module,5,"The performance review system is excellent. The 360-degree feedback feature has transformed our review process.",Praise,Los Angeles,U011
+C012,2025-02-25,CRM Module,4,"Customer segmentation tools work well. Would be great to have more advanced filtering options.",Feature Request,Miami,U012
+C013,2025-03-01,Inventory Module,2,"The inventory transfer between warehouses feature is buggy and sometimes loses items in transit (in the system, not physically).",Bug Report,San Diego,U013
+C014,2025-03-05,Financial Module,5,"The budget planning tools are fantastic. Being able to create different scenarios has helped with our strategic planning.",Praise,Houston,U014
+C015,2025-03-10,HR Module,3,"Employee self-service portal works well but the UI is outdated compared to the rest of the system.",UI/UX,Chicago,U015
+C016,2025-03-15,CRM Module,5,"The lead scoring functionality is a game changer for our sales team. It's helping us prioritize high-value prospects.",Praise,Phoenix,U016
+C017,2025-03-20,Inventory Module,4,"Batch tracking improvements in the last update have made regulatory compliance much easier for our food products.",Compliance,New York,U017
+C018,2025-03-25,Financial Module,2,"Report customization is too limited. We need to export to Excel for most of our analysis, which defeats the purpose.",Feature Request,Boston,U018
+C019,2025-04-01,HR Module,5,"Recruitment module integration with job boards has increased our qualified applicants by 40%. Very impressed!",Integration,Seattle,U019
+C020,2025-04-05,CRM Module,3,"The mobile app for field sales reps needs work. It crashes frequently when trying to update opportunities.",Bug Report,Austin,U020
+C021,2025-04-10,Inventory Module,4,"The new supplier management features are excellent. Easy to track performance metrics.",Praise,Denver,U021
+C022,2025-04-15,Financial Module,3,"Bank reconciliation is mostly automated but still requires too many manual interventions.",Feature Request,Atlanta,U022
+C023,2025-04-20,HR Module,4,"Benefits administration updates have simplified our open enrollment period considerably.",Praise,Portland,U023
+C024,2025-04-25,CRM Module,5,"Customer support case management is outstanding. The AI ticket routing saves our support team so much time.",Praise,Dallas,U024
+C025,2025-04-30,Supply Chain Module,2,"The supply chain visualization is confusing and doesn't accurately represent our multi-tier supplier network.",UI/UX,Charlotte,U025
+C026,2025-05-05,Financial Module,4,"The currency conversion feature is very accurate and updates in real-time. Makes international business much easier.",Praise,Phoenix,U026
+C027,2025-05-10,HR Module,2,"The learning management system is too rigid. We need more flexibility in creating custom training paths.",Feature Request,San Francisco,U027
+C028,2025-05-15,Project Management Module,5,"Project timeline tracking and resource allocation features are outstanding. Significantly improved our delivery times.",Praise,Chicago,U028
+C029,2025-05-20,Inventory Module,3,"The inventory audit tools are helpful but generating reports takes too long when dealing with large datasets.",Performance,Miami,U029
+C030,2025-05-25,Analytics Module,4,"The custom dashboard builder is intuitive. Would like to see more visualization options for time-series data.",Feature Request,Houston,U030
